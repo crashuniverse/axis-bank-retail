@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB1FCF732C1430A800172BE3 /* AxisBankRetailApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1FCF722C1430A800172BE3 /* AxisBankRetailApp.swift */; };
+		BB1FCF752C1430A800172BE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1FCF742C1430A800172BE3 /* ContentView.swift */; };
+		BB1FCF772C1430A900172BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1FCF762C1430A900172BE3 /* Assets.xcassets */; };
+		BB1FCF7A2C1430A900172BE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1FCF792C1430A900172BE3 /* Preview Assets.xcassets */; };
+		BB1FCF842C1430A900172BE3 /* AxisBankRetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1FCF832C1430A900172BE3 /* AxisBankRetailTests.swift */; };
+		BB1FCF8E2C1430A900172BE3 /* AxisBankRetailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1FCF8D2C1430A900172BE3 /* AxisBankRetailUITests.swift */; };
+		BB1FCF902C1430A900172BE3 /* AxisBankRetailUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1FCF8F2C1430A900172BE3 /* AxisBankRetailUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB1FCF802C1430A900172BE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB1FCF672C1430A800172BE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB1FCF6E2C1430A800172BE3;
+			remoteInfo = AxisBankRetail;
+		};
+		BB1FCF8A2C1430A900172BE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB1FCF672C1430A800172BE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB1FCF6E2C1430A800172BE3;
+			remoteInfo = AxisBankRetail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB1FCF6F2C1430A800172BE3 /* AxisBankRetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AxisBankRetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1FCF722C1430A800172BE3 /* AxisBankRetailApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisBankRetailApp.swift; sourceTree = "<group>"; };
+		BB1FCF742C1430A800172BE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB1FCF762C1430A900172BE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB1FCF792C1430A900172BE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB1FCF7F2C1430A900172BE3 /* AxisBankRetailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AxisBankRetailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1FCF832C1430A900172BE3 /* AxisBankRetailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisBankRetailTests.swift; sourceTree = "<group>"; };
+		BB1FCF892C1430A900172BE3 /* AxisBankRetailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AxisBankRetailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1FCF8D2C1430A900172BE3 /* AxisBankRetailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisBankRetailUITests.swift; sourceTree = "<group>"; };
+		BB1FCF8F2C1430A900172BE3 /* AxisBankRetailUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisBankRetailUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB1FCF6C2C1430A800172BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1FCF7C2C1430A900172BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1FCF862C1430A900172BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB1FCF662C1430A800172BE3 = {
+			isa = PBXGroup;
+			children = (
+				BB1FCF712C1430A800172BE3 /* AxisBankRetail */,
+				BB1FCF822C1430A900172BE3 /* AxisBankRetailTests */,
+				BB1FCF8C2C1430A900172BE3 /* AxisBankRetailUITests */,
+				BB1FCF702C1430A800172BE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB1FCF702C1430A800172BE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB1FCF6F2C1430A800172BE3 /* AxisBankRetail.app */,
+				BB1FCF7F2C1430A900172BE3 /* AxisBankRetailTests.xctest */,
+				BB1FCF892C1430A900172BE3 /* AxisBankRetailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB1FCF712C1430A800172BE3 /* AxisBankRetail */ = {
+			isa = PBXGroup;
+			children = (
+				BB1FCF722C1430A800172BE3 /* AxisBankRetailApp.swift */,
+				BB1FCF742C1430A800172BE3 /* ContentView.swift */,
+				BB1FCF762C1430A900172BE3 /* Assets.xcassets */,
+				BB1FCF782C1430A900172BE3 /* Preview Content */,
+			);
+			path = AxisBankRetail;
+			sourceTree = "<group>";
+		};
+		BB1FCF782C1430A900172BE3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB1FCF792C1430A900172BE3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB1FCF822C1430A900172BE3 /* AxisBankRetailTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB1FCF832C1430A900172BE3 /* AxisBankRetailTests.swift */,
+			);
+			path = AxisBankRetailTests;
+			sourceTree = "<group>";
+		};
+		BB1FCF8C2C1430A900172BE3 /* AxisBankRetailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB1FCF8D2C1430A900172BE3 /* AxisBankRetailUITests.swift */,
+				BB1FCF8F2C1430A900172BE3 /* AxisBankRetailUITestsLaunchTests.swift */,
+			);
+			path = AxisBankRetailUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB1FCF6E2C1430A800172BE3 /* AxisBankRetail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1FCF932C1430A900172BE3 /* Build configuration list for PBXNativeTarget "AxisBankRetail" */;
+			buildPhases = (
+				BB1FCF6B2C1430A800172BE3 /* Sources */,
+				BB1FCF6C2C1430A800172BE3 /* Frameworks */,
+				BB1FCF6D2C1430A800172BE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AxisBankRetail;
+			productName = AxisBankRetail;
+			productReference = BB1FCF6F2C1430A800172BE3 /* AxisBankRetail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB1FCF7E2C1430A900172BE3 /* AxisBankRetailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1FCF962C1430A900172BE3 /* Build configuration list for PBXNativeTarget "AxisBankRetailTests" */;
+			buildPhases = (
+				BB1FCF7B2C1430A900172BE3 /* Sources */,
+				BB1FCF7C2C1430A900172BE3 /* Frameworks */,
+				BB1FCF7D2C1430A900172BE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB1FCF812C1430A900172BE3 /* PBXTargetDependency */,
+			);
+			name = AxisBankRetailTests;
+			productName = AxisBankRetailTests;
+			productReference = BB1FCF7F2C1430A900172BE3 /* AxisBankRetailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB1FCF882C1430A900172BE3 /* AxisBankRetailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1FCF992C1430A900172BE3 /* Build configuration list for PBXNativeTarget "AxisBankRetailUITests" */;
+			buildPhases = (
+				BB1FCF852C1430A900172BE3 /* Sources */,
+				BB1FCF862C1430A900172BE3 /* Frameworks */,
+				BB1FCF872C1430A900172BE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB1FCF8B2C1430A900172BE3 /* PBXTargetDependency */,
+			);
+			name = AxisBankRetailUITests;
+			productName = AxisBankRetailUITests;
+			productReference = BB1FCF892C1430A900172BE3 /* AxisBankRetailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB1FCF672C1430A800172BE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BB1FCF6E2C1430A800172BE3 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BB1FCF7E2C1430A900172BE3 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BB1FCF6E2C1430A800172BE3;
+					};
+					BB1FCF882C1430A900172BE3 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BB1FCF6E2C1430A800172BE3;
+					};
+				};
+			};
+			buildConfigurationList = BB1FCF6A2C1430A800172BE3 /* Build configuration list for PBXProject "AxisBankRetail" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB1FCF662C1430A800172BE3;
+			productRefGroup = BB1FCF702C1430A800172BE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB1FCF6E2C1430A800172BE3 /* AxisBankRetail */,
+				BB1FCF7E2C1430A900172BE3 /* AxisBankRetailTests */,
+				BB1FCF882C1430A900172BE3 /* AxisBankRetailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB1FCF6D2C1430A800172BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1FCF7A2C1430A900172BE3 /* Preview Assets.xcassets in Resources */,
+				BB1FCF772C1430A900172BE3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1FCF7D2C1430A900172BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1FCF872C1430A900172BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB1FCF6B2C1430A800172BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1FCF752C1430A800172BE3 /* ContentView.swift in Sources */,
+				BB1FCF732C1430A800172BE3 /* AxisBankRetailApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1FCF7B2C1430A900172BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1FCF842C1430A900172BE3 /* AxisBankRetailTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1FCF852C1430A900172BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1FCF902C1430A900172BE3 /* AxisBankRetailUITestsLaunchTests.swift in Sources */,
+				BB1FCF8E2C1430A900172BE3 /* AxisBankRetailUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB1FCF812C1430A900172BE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB1FCF6E2C1430A800172BE3 /* AxisBankRetail */;
+			targetProxy = BB1FCF802C1430A900172BE3 /* PBXContainerItemProxy */;
+		};
+		BB1FCF8B2C1430A900172BE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB1FCF6E2C1430A800172BE3 /* AxisBankRetail */;
+			targetProxy = BB1FCF8A2C1430A900172BE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB1FCF912C1430A900172BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB1FCF922C1430A900172BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB1FCF942C1430A900172BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AxisBankRetail/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.priyaranjan.AxisBankRetail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB1FCF952C1430A900172BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AxisBankRetail/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.priyaranjan.AxisBankRetail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB1FCF972C1430A900172BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.priyaranjan.AxisBankRetailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AxisBankRetail.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AxisBankRetail";
+			};
+			name = Debug;
+		};
+		BB1FCF982C1430A900172BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.priyaranjan.AxisBankRetailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AxisBankRetail.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AxisBankRetail";
+			};
+			name = Release;
+		};
+		BB1FCF9A2C1430A900172BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.priyaranjan.AxisBankRetailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AxisBankRetail;
+			};
+			name = Debug;
+		};
+		BB1FCF9B2C1430A900172BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.priyaranjan.AxisBankRetailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AxisBankRetail;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB1FCF6A2C1430A800172BE3 /* Build configuration list for PBXProject "AxisBankRetail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1FCF912C1430A900172BE3 /* Debug */,
+				BB1FCF922C1430A900172BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB1FCF932C1430A900172BE3 /* Build configuration list for PBXNativeTarget "AxisBankRetail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1FCF942C1430A900172BE3 /* Debug */,
+				BB1FCF952C1430A900172BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB1FCF962C1430A900172BE3 /* Build configuration list for PBXNativeTarget "AxisBankRetailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1FCF972C1430A900172BE3 /* Debug */,
+				BB1FCF982C1430A900172BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB1FCF992C1430A900172BE3 /* Build configuration list for PBXNativeTarget "AxisBankRetailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1FCF9A2C1430A900172BE3 /* Debug */,
+				BB1FCF9B2C1430A900172BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB1FCF672C1430A800172BE3 /* Project object */;
+}
